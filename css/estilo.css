@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: #f5f5f5;
+}
+
+a{
+    text-decoration: none;
+}
+/*
+***Cabeçalho***
+*/
+.cabecalho{
+    background-color: #434141;
+    border: 1px solid red;
+    display: flex;
+    padding: 24px;
+}
+
+.cabecalho img{
+    width: 192px;
+    height: 129px;
+}
+
+.pesquisa{
+    border: 1px solid orange;
+}
+
+.pesquisa input{
+    background-color: #d9d9d9;
+    border-style: none;
+    border-radius: 15px;
+    position: relative;
+    width: 608px;
+    height: 51px;
+}
+
+.pesquisa img{
+    position: relative;
+    top: 24px;
+    width: 46px;
+    height: 52px;
+    transform: rotate(89.41deg);
+}
+
+.menu{
+    border: 1px solid yellowgreen;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu li{
+    display: inline;
+}
+
+.menu li a{
+    color: #FAA60A;
+}
+
+.conta{
+    border: 1px solid yellowgreen;
+}
+
+.conta img{
+    width: 48px;
+    height: 47px;
+}
+
+.shop{
+    border: 1px solid blue;
+}
+
+.shop img{
+    width: 64px;
+    height: 68px;
+}
+
+.shop p{
+    color: #FAA60A;
+}
+/*
+***Principal***
+*/
+.principal{
+    position: relative;
+    display: flex;
+    border: 1px solid red;
+    width: 1440px;
+    margin: auto;
+}
+
+.img-intro{
+    border: 1px solid palegreen;
+    width: 1440px;
+    height: 500px;
+}
+
+
