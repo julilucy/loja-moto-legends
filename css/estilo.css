@@ -117,15 +117,15 @@
 
 /*Iníico destaque*/
 #destaque{
-    margin-top: 5px;
+    margin-top: 10px;
     float: left;
 }
 
-#destaque h2{
+#destaque h3{
     background-color: #D9D9D9;
     border-radius: 20px;
     color: orange;
-    font-size: 1.6em;
+    font-size: 1.4em;
     padding: 8px;
 }
 
@@ -145,4 +145,39 @@
     text-align: center;
     padding: 5px 0px;
     width: 100px;
+}
+/*Fim destaque*/
+/*Início conteúdo*/
+#conteudo{
+    border: 1px solid red;
+    width: 1000px;
+    margin: 10px auto
+}
+
+#conteudo img{
+    width: 100%;
+}
+
+.secao-nome{
+    text-align: center;
+}
+
+.secao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid blue;
+}
+
+.secao p{
+    text-align: center;
+}
+
+#conteudo .secao-img img{
+    width: 160px;
+}
+/*Fim conteúdo*/
+/*Rodapé*/
+.rodape{
+    clear: both;
 }
