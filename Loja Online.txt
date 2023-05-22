@@ -1,11 +1,11 @@
-produtos
-Vendas
-pagamento
-Valor
-desconto
-Forma de pagamento
-fale conosco
-menu com categorias de produtos
-descrição/informação dos produtos
-Cliente formulário
-peças 
+produtos *
+Vendas *
+pagamento *
+Valor *
+desconto *
+Forma de pagamento *
+fale conosco *
+menu com categorias de produtos *
+descriï¿½ï¿½o/informaï¿½ï¿½o dos produtos -+-
+Cliente formulï¿½rio
+peï¿½as -+-
