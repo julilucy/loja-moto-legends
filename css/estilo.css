@@ -63,6 +63,12 @@
     text-decoration: none;
 }
 
+.menu-nav a::selection{
+    border: none;
+    outline: 0;
+    box-shadow: 0;
+}
+
 .menu-nav a:hover{
     background-color: orange;
     color: black;
