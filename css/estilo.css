@@ -195,5 +195,21 @@
 /*Fim conteúdo*/
 /*Rodapé*/
 .rodape{
+    margin-top: 10px;
     clear: both;
+}
+
+.icons-rede{
+    float: left;
+    padding: 0px 30px;
+}
+
+.icons-rede img{
+    width: 30px;
+}
+
+.copy{
+    text-align: center;
+    margin: auto;
+    width: 300px;
 }
