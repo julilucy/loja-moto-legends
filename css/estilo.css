@@ -320,6 +320,7 @@ body{
 
 #list-categoria{
     border: 1px solid greenyellow;
+
 }
 
 #list-categoria li{
@@ -358,5 +359,4 @@ body{
     text-align: center;
     margin: 10px 15px;
     font-size: 14px;
-    border: 1px solid cyan;
 }
