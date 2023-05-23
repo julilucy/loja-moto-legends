@@ -225,13 +225,14 @@ body{
 */
 #cadastro{
     position: relative;
-    height: 741px;
+    height: 743px;
     width: 1000px;
     margin: auto;
-    border: 1px solid red;
 }
 
 #texto-cadastro{
+    position: relative;
+    top: 200px;
     text-align: center;
 }
 
@@ -252,7 +253,8 @@ body{
 }
 
 #form-cadastro{
-    border: 1px solid green;
+    position: relative;
+    top: 220px;
     text-align: center;
 }
 
@@ -287,4 +289,17 @@ body{
 .itens-cadastro input:focus{
     box-shadow: 0;
     outline: 0;
+}
+/*
+*** Página carrinho ***
+*/
+#carrinho{
+    border: 1px solid green;
+    float: right;
+}
+
+#area-carrinho{
+    width: 1000px;
+    margin: 10px auto;
+    border: 1px solid red;
 }

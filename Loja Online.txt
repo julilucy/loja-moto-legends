@@ -1,9 +1,9 @@
 produtos -+-
 Vendas --
-pagamento --
+pagamento -+-
 Valor -+-
-Forma de pagamento --
+Forma de pagamento -+-
 menu com categorias de produtos --
 descri��o/informa��o dos produtos ++
-Cliente formul�rio -+-
+Cliente formul�rio ++
 pe�as -+-
