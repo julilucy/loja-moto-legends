@@ -10,6 +10,10 @@
 body{
     background-color: #D9D9D9;
 }
+
+a{
+    text-decoration: none;
+}
 /*Início cabeçalho*/
 .cabecalho{
     background-color: rgb(27, 27, 27);
@@ -60,18 +64,13 @@ body{
     list-style: none;
 }
 
-.menu-nav a, a:visited{
+.menu-nav a:link, a:visited{
     background-color: white;
+    color: orange;
     border-radius: 20px;
     padding: 8px 15px;
-    color: orange;
+    
     text-decoration: none;
-}
-
-.menu-nav a::selection{
-    border: none;
-    outline: 0;
-    box-shadow: 0;
 }
 
 .menu-nav a:hover{
@@ -189,14 +188,15 @@ body{
 }
 
 .secao p{
+    background-color: #D9D9D9;
+    border-radius: 15px;
     text-align: center;
-    padding: 15px;
-    color: orange;
+    padding: 10px 0px;
+    margin: 8px;
 }
 
 .secao-img{
     margin: auto 20px;
-    border: 1px solid gainsboro;
 }
 
 #conteudo .secao-img img{
@@ -313,18 +313,45 @@ body{
 *** Página produtos ***
 */
 #categoria{
-    margin: 10px auto;
+    position: relative;
+    top:60px;
     float: left;
-    border: 1px solid red;
+    width: 320px;
+    margin-left: 10px;
+}
+
+#categoria h2{
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.3em;
+    color: orange;
+    padding: 10px;
 }
 
 #list-categoria{
-    border: 1px solid greenyellow;
-
+    background-color: white;
+    border-radius: 14px;
+    margin: 15px auto;
+    padding: 5px 0px;
+    width: 240px;
 }
 
 #list-categoria li{
-    border: 1px solid purple;
+    list-style: none;
+    margin: 15px auto;
+    width: 180px;
+}
+
+#list-categoria p{
+    border-radius: 8px;
+    background-color: #D9D9D9;
+    color: black;
+}
+
+#list-categoria p:hover{
+    background-color: orange;
+    color: black;
 }
 
 #produtos{
@@ -354,7 +381,7 @@ body{
 }
 
 .itens-produtos p{
-    background-color: orange;
+    background-color: #D9D9D9;
     border-radius: 20px;
     text-align: center;
     margin: 10px 15px;
