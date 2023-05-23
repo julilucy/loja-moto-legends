@@ -1,11 +1,9 @@
-produtos *
-Vendas *
-pagamento *
-Valor *
-desconto *
-Forma de pagamento *
-fale conosco *
-menu com categorias de produtos *
-descri��o/informa��o dos produtos -+-
-Cliente formul�rio
+produtos -+-
+Vendas --
+pagamento --
+Valor -+-
+Forma de pagamento --
+menu com categorias de produtos --
+descri��o/informa��o dos produtos ++
+Cliente formul�rio -+-
 pe�as -+-

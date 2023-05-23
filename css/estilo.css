@@ -220,3 +220,71 @@ body{
     margin: auto;
     width: 300px;
 }
+/*
+***Página cadastro***
+*/
+#cadastro{
+    position: relative;
+    height: 741px;
+    width: 1000px;
+    margin: auto;
+    border: 1px solid red;
+}
+
+#texto-cadastro{
+    text-align: center;
+}
+
+#texto-cadastro h1{
+    background-color: orange;
+    border-radius: 20px;
+    font-size: 2em;
+    width: 300px;
+    margin: auto;
+}
+
+#texto-cadastro p{
+    background-color: white;
+    border-radius: 8px;
+    font-size: 1.1em;
+    width: 390px;
+    margin: 10px auto;
+}
+
+#form-cadastro{
+    border: 1px solid green;
+    text-align: center;
+}
+
+#form-cad-submit{
+    background-color: orange;
+    border-radius: 14px;
+    border: none;
+    cursor: pointer;
+    padding: 5px 0px;
+    width: 150px;
+}
+
+#form-cad-submit:hover{
+    background-color: white;
+    color: orange;
+}
+
+.itens-cadastro{
+    background-color: orange;
+    border-radius: 12px;
+    width: 370px;
+    padding: 15px 0px;
+    margin: 20px auto;
+}
+
+.itens-cadastro input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.itens-cadastro input:focus{
+    box-shadow: 0;
+    outline: 0;
+}
