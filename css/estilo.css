@@ -115,6 +115,7 @@ body{
 }
 
 #img-principal img{
+    border-radius: 2px;
     width: 100%;
 }
 /*fim principal*/
@@ -140,7 +141,9 @@ body{
 }
 
 .destaque-produto img{
+    border-radius: 14px;
     width: 220px;
+    height: 220px;
 }
 
 .destaque-produto p{
@@ -161,6 +164,7 @@ body{
 }
 
 #conteudo img{
+    border-radius: 12px;
     width: 100%;
 }
 
@@ -196,7 +200,8 @@ body{
 }
 
 #conteudo .secao-img img{
-    width: 160px;
+    width: 210px;
+    height: 210px;
 }
 /*Fim conteúdo*/
 /*Rodapé*/
@@ -303,4 +308,55 @@ body{
     width: 1000px;
     margin: 10px auto;
     border: 1px solid red;
+}
+/*
+*** Página produtos ***
+*/
+#categoria{
+    margin: 10px auto;
+    float: left;
+    border: 1px solid red;
+}
+
+#list-categoria{
+    border: 1px solid greenyellow;
+}
+
+#list-categoria li{
+    border: 1px solid purple;
+}
+
+#produtos{
+    width: 940px;
+    margin: 10px auto;
+}
+
+#produtos h2{
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1.6em;
+    color: orange;
+}
+
+.itens-produtos{
+    border-radius: 16px;
+    background-color: white;
+    margin: 10px;
+    float: left;
+}
+
+.itens-produtos img{
+    padding: 10px 0px;
+    width: 210px;
+    height: 210px;
+}
+
+.itens-produtos p{
+    background-color: orange;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px 15px;
+    font-size: 14px;
+    border: 1px solid cyan;
 }
