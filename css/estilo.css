@@ -256,7 +256,8 @@ a{
     border-radius: 20px;
     font-size: 2em;
     width: 300px;
-    margin: 15px auto;
+    margin: auto;
+    margin-bottom: 30px;
 }
 
 #texto-cadastro p{
@@ -321,7 +322,7 @@ a{
 }
 
 #total-carrinho{
-
+    border: 1px solid purple;
 }
 
 #area-carrinho{
