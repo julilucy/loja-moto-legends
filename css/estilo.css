@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family= Irish+Grover & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@100;200;300;400;500;600&display=swap');
 
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Irish Grover', cursive;
     font-size: 1em;
 }
 
 body{
     background-color: #D9D9D9;
+    font-family: 'Comme', sans-serif;
 }
 
 a{
@@ -22,7 +22,6 @@ a{
 /*Início cabeçalho*/
 .cabecalho{
     background-color: rgb(27, 27, 27);
-    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -179,7 +178,7 @@ a{
 .secao-nome h2{
     background-color: orange;
     border-radius: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+
     font-size: 1.6em;
     margin: 10px auto;
     padding: 10px 0px;
