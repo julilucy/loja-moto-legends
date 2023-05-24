@@ -308,10 +308,47 @@ a{
 }
 
 #area-carrinho{
+    background-color: white;
+    border-radius: 16px;
     position: relative;
-    width: 1000px;
-    margin: 10px auto;
+    width: 940px;
+    margin: 15px auto;
     border: 1px solid red;
+}
+
+#area-carrinho h2{
+    font-size: 1.6em;
+    text-align: center;
+    margin: auto;
+    padding: 10px 0px;
+    width: 400px;
+}
+
+.produto-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    border: 1px solid blue;
+}
+
+.produto-list span{
+    font-size: 1.2em;
+}
+
+.produto-list img{
+    width: 100px;
+    height: 100px;
+}
+
+.produto-list p{
+    font-size: 1.1em;
+}
+
+.number-quant{
+    background-color: orange;
+    border-radius: 80px;
+    padding: 10px 15px;
 }
 /*
 *** Página produtos ***
