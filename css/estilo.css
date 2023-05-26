@@ -137,7 +137,7 @@ a{
     border-radius: 20px;
     color: orange;
     font-size: 1.4em;
-    padding: 8px;
+    padding: 5px;
 }
 
 .destaque-produto{
@@ -147,8 +147,8 @@ a{
 
 .destaque-produto img{
     border-radius: 14px;
-    width: 220px;
-    height: 220px;
+    width: 180px;
+    height: 180px;
 }
 
 .destaque-produto p{
@@ -164,7 +164,7 @@ a{
 /*Início conteúdo*/
 #conteudo{
     background-color: white;
-    width: 940px;
+    width: 850px;
     margin: 10px auto
 }
 
