@@ -310,19 +310,90 @@ a{
 *** Página carrinho ***
 */
 #carrinho{
-    background: white;
-    border: 1px solid green;
     float: right;
     margin-top: 10px;
-    margin-right: 50px;
+    margin-right: 10px;
+}
+
+#carrinho h3{
+    background-color: orange;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 1.3em;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 282px;
+}
+
+#carrinho h2{
+    background-color: white;
+    color: orange;
+    border-radius: 15px;
+    font-size: 1.2em;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 200px;
+    
 }
 
 #produto-carrinho{
-    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#produto-carrinho tr{
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    width: 270px;
+}
+
+.quant{
+    background-color: #D9D9D9;
+    border-radius: 80px;
+    padding: 5px 10px;
 }
 
 #total-carrinho{
-    border: 1px solid purple;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    margin: auto;
+}
+
+#total-carrinho p{
+    margin: 15px auto;
+    text-align: center;
+    font-size: 16px;
+}
+
+#forma-pagamento{
+    display: flex;
+    justify-content: space-around;
+}
+
+#forma-pagamento button{
+    border-radius: 40px;
+    background: orange;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+}
+
+#forma-pagamento img{
+    width: 24px;
+    height: 24px;
 }
 
 #area-carrinho{
